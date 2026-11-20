@@ -19,6 +19,7 @@
 - TTFTは、入力を受けてから最初のストリーム出力が返るまでの実測値。
 - 端末負荷、温度、入力長、出力長によって測定値は変わる。
 - モデルの学習や重みの変更は行わない。
+- stream_generate() に make_sampler() を明示している。
 
 保存場所：five-lang-llm/scripts/evaluate_speed.py
 VS Codeで .venv/bin/python を選択して実行する。
@@ -39,14 +40,19 @@ from time import perf_counter
 import mlx.core as mx
 # MLX LM：モデルの読込と「逐次的な文章生成」を行う。
 from mlx_lm import load, stream_generate
+from mlx_lm.sample_utils import make_sampler  # 【サンプリング】生成条件を明示的に固定する。
 
 # === 実験設定：圧縮前後でなるべく同じ値を維持する ===
 MODEL_ID = "Qwen/Qwen3-8B-MLX-4bit"  # 評価対象モデル。
-RUN_NAME = "baseline"  # 圧縮後は "compressed"。同名だと保存結果を上書きする。
+RUN_NAME = "baseline_smoke"  # 動作確認後、正式評価時は "baseline" に変更する。
 REPEATS_PER_PROMPT = 3  # 1問を3回測り、偶然の測定誤差を減らす。
 MAX_NEW_TOKENS = 128  # 1回で生成する最大トークン数。長さの上限を揃える。
 SEED = 42  # MLXの乱数シードを固定して実験を再現しやすくする。
 ENABLE_THINKING = False  # Thinkingモードを無効化。比較する全モデルで統一。
+# Qwen3公式のNon-Thinking推奨値を使用。値を変更した場合は圧縮後の評価でも揃える。
+SAMPLING_TEMPERATURE = 0.7
+SAMPLING_TOP_P = 0.8
+SAMPLING_TOP_K = 20
 
 # 【速度測定用の質問】各言語で意味を揃えた2問を定義する。
 # 圧縮前後でプロンプトを変更すると、速度差の原因を特定しづらくなる。
@@ -148,6 +154,11 @@ def run_one(model, tokenizer, user_message):
         tokenizer,
         prompt,
         max_tokens=MAX_NEW_TOKENS,
+        sampler=make_sampler(
+            temp=SAMPLING_TEMPERATURE,
+            top_p=SAMPLING_TOP_P,
+            top_k=SAMPLING_TOP_K,
+        ),
     ):
         # 【実測③】最初のストリーム出力が届いた時刻を直接記録する。
         # 注意：画面描画や通信が発生しないローカルPython API内のTTFT。
@@ -235,7 +246,9 @@ def main():
             "max_new_tokens": MAX_NEW_TOKENS,
             "thinking": ENABLE_THINKING,
             "seed": SEED,
-            "temperature": 0,
+            "temperature": SAMPLING_TEMPERATURE,
+            "top_p": SAMPLING_TOP_P,
+            "top_k": SAMPLING_TOP_K,
             "prompt_kv_cache_reuse": False,
             "measurement": "Local Python API / MLX generation; model load excluded",
             "started_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -257,7 +270,14 @@ def main():
     # ウォームアップの時間はCSVには保存しない。
     print("Warming up GPU (not included in measurements)...")
     warmup_prompt = to_chat_prompt(tokenizer, PROMPTS["日本語"][0])
-    for _ in stream_generate(model, tokenizer, warmup_prompt, max_tokens=16):
+    for _ in stream_generate(
+        model, tokenizer, warmup_prompt, max_tokens=16,
+        sampler=make_sampler(
+            temp=SAMPLING_TEMPERATURE,
+            top_p=SAMPLING_TOP_P,
+            top_k=SAMPLING_TOP_K,
+        ),
+    ):
         pass
     mx.synchronize()
 
@@ -278,6 +298,8 @@ def main():
             for prompt_index, prompt in enumerate(prompt_list, start=1):
                 for repeat in range(1, REPEATS_PER_PROMPT + 1):
                     # 【応答速度の実測を呼び出す場所】1問を設定回数だけ生成して計測する。
+                    # 同じ問題の各反復で乱数を揃え、試行間の生成文の差を減らす。
+                    mx.random.seed(SEED + prompt_index)
                     record = run_one(model, tokenizer, prompt)
                     record.update({
                         "language": language,
