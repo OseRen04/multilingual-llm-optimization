@@ -1,0 +1,11 @@
+﻿language,language_code,total,correct,accuracy_percent
+日本語,jpn_Jpan,900,723,80.33
+英語,eng_Latn,900,790,87.78
+ロシア語,rus_Cyrl,900,755,83.89
+韓国語,kor_Hang,900,766,85.11
+中国語（簡体字）,zho_Hans,900,768,85.33
+アラビア語,arb_Arab,900,706,78.44
+フランス語,fra_Latn,900,781,86.78
+スペイン語,spa_Latn,900,778,86.44
+ヒンディー語,hin_Deva,900,634,70.44
+タイ語,tha_Thai,900,652,72.44

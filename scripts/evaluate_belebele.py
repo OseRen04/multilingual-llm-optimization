@@ -35,9 +35,9 @@ from mlx_lm import load
 # 評価対象モデル。語彙削減後は、圧縮モデルのフォルダパスに変更する。
 MODEL_ID = "Qwen/Qwen3-8B-MLX-4bit"
 # CSV保存先を分ける名前。同じ名前で再実行すると既存の結果を上書きする。
-RUN_NAME = "baseline_smoke"  # 動作確認後、正式評価時は "baseline" に変更する。
+RUN_NAME = "baseline_full"  # 動作確認後、正式評価時は "baseline" に変更する。
 # 1言語あたりの評価問題数：最初は10問、正式評価は900問。
-QUESTIONS_PER_LANGUAGE = 10
+QUESTIONS_PER_LANGUAGE = 900
 # 問題抽出の乱数を固定し、別モデルでも同じ問題を使えるようにする。
 SEED = 42
 
