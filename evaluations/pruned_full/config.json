@@ -1,0 +1,15 @@
+{
+  "model": "/Users/nayu/Desktop/QuinLex-8B-MLX-4bit",
+  "run": "pruned_full",
+  "dataset": "facebook/belebele",
+  "questions_per_language": 900,
+  "seed": 42,
+  "thinking": false,
+  "scoring": "next-token logits, greedy A/B/C/D choice",
+  "instruction_language": "English",
+  "question_id_columns": [
+    "link",
+    "question_number"
+  ],
+  "note": "未学習モデルの相対logitsによる独自zero-shot評価。Belebele公式論文の全条件の再現ではない。"
+}

@@ -1,0 +1,60 @@
+{
+  "model_id": "Qwen/Qwen3-8B-MLX-4bit",
+  "run_name": "baseline_smoke",
+  "repeats_per_prompt": 3,
+  "max_new_tokens": 128,
+  "thinking": false,
+  "seed": 42,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "prompt_kv_cache_reuse": false,
+  "measurement": "Local Python API / MLX generation; model load excluded",
+  "started_at_utc": "2026-11-21T20:42:20.478112+00:00",
+  "os": "macOS-15.8.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "mlx_version": "0.32.4",
+  "mlx_lm_version": "0.32.2",
+  "prompts": {
+    "日本語": [
+      "標高が高い場所で水の沸点が下がる理由を、3文で説明してください。",
+      "家庭で電力消費を減らす方法を、具体例を挙げて5つ説明してください。"
+    ],
+    "英語": [
+      "Explain in three sentences why water boils at a lower temperature at high altitudes.",
+      "Explain five concrete ways to reduce electricity use at home, with examples."
+    ],
+    "ロシア語": [
+      "Объясни тремя предложениями, почему на большой высоте вода кипит при более низкой температуре.",
+      "Назови пять конкретных способов снизить расход электроэнергии дома с примерами."
+    ],
+    "韓国語": [
+      "고도가 높은 곳에서 물의 끓는점이 낮아지는 이유를 세 문장으로 설명해 주세요.",
+      "가정에서 전기 사용량을 줄일 수 있는 구체적인 방법 다섯 가지를 예와 함께 설명해 주세요."
+    ],
+    "中国語（簡体字）": [
+      "请用三句话解释为什么海拔越高，水的沸点越低。",
+      "请举例说明家庭节约用电的五种具体方法。"
+    ],
+    "アラビア語": [
+      "اشرح في ثلاث جمل لماذا تنخفض درجة غليان الماء في المرتفعات.",
+      "اذكر خمس طرق عملية لتقليل استهلاك الكهرباء في المنزل مع أمثلة."
+    ],
+    "フランス語": [
+      "Explique en trois phrases pourquoi l'eau bout à une température plus basse en altitude.",
+      "Explique cinq façons concrètes de réduire la consommation d'électricité à la maison, avec des exemples."
+    ],
+    "スペイン語": [
+      "Explica en tres frases por qué el agua hierve a menor temperatura a gran altitud.",
+      "Explica cinco formas concretas de reducir el consumo eléctrico en casa, con ejemplos."
+    ],
+    "ヒンディー語": [
+      "तीन वाक्यों में समझाइए कि अधिक ऊँचाई पर पानी का क्वथनांक कम क्यों होता है।",
+      "उदाहरणों सहित घर में बिजली की खपत कम करने के पाँच व्यावहारिक तरीके बताइए।"
+    ],
+    "タイ語": [
+      "อธิบายเป็นสามประโยคว่าทำไมน้ำจึงเดือดที่อุณหภูมิต่ำลงเมื่ออยู่บนที่สูง",
+      "อธิบายวิธีลดการใช้ไฟฟ้าในบ้านห้าวิธีพร้อมตัวอย่างที่เป็นรูปธรรม"
+    ]
+  }
+}

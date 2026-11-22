@@ -1,0 +1,289 @@
+﻿language,prompt_id,repeat,prompt_tokens,generated_tokens,ttft_s,generation_tokens_per_s,prompt_tokens_per_s,output_characters,output_utf8_bytes,characters_per_s,utf8_bytes_per_s,inference_total_s,end_to_end_s,peak_memory_gb,finish_reason,generated_text
+日本語,1,1,37,60,0.4375,24.1691,85.0457,78,234,31.4198,94.2594,2.9393,2.9396,4.5554,stop,標高が高い場所では大気圧が低くなります。大気圧が低いと水の沸点を上げる圧力が弱まります。そのため、水は比較的低い温度で気化しやすくなり、沸点が下がるのです。
+日本語,1,2,37,60,0.4674,23.8087,79.6562,78,234,30.9513,92.854,3.0068,3.0072,4.5554,stop,標高が高い場所では大気圧が低くなります。大気圧が低いと水の沸点を上げる圧力が弱まります。そのため、水は比較的低い温度で気化しやすくなり、沸点が下がるのです。
+日本語,1,3,37,60,0.4764,23.6823,78.0545,78,234,30.7869,92.3608,3.0292,3.0295,4.5554,stop,標高が高い場所では大気圧が低くなります。大気圧が低いと水の沸点を上げる圧力が弱まります。そのため、水は比較的低い温度で気化しやすくなり、沸点が下がるのです。
+日本語,2,1,38,128,0.5053,23.503,75.5688,191,485,35.0709,89.0544,5.9708,5.971,4.5486,length,"家庭で電力消費を減らすためには、日常生活の中で小さな工夫を積み重ねることが効果的です。以下は、具体的な例を挙げて5つの方法を説明します。
+
+---
+
+### 1. **LED電球に交換する**
+- **理由**：白熱電球は消費電力が大きく、寿命も短いです。一方、LED電球は同じ明るさで約80％の電力を節約し、寿命も長くなります。
+- **具体例**：玄関や廊下、寝室などにLED電"
+日本語,2,2,38,128,0.4919,23.5499,77.6267,191,485,35.1409,89.2321,5.9469,5.9472,4.5486,length,"家庭で電力消費を減らすためには、日常生活の中で小さな工夫を積み重ねることが効果的です。以下は、具体的な例を挙げて5つの方法を説明します。
+
+---
+
+### 1. **LED電球に交換する**
+- **理由**：白熱電球は消費電力が大きく、寿命も短いです。一方、LED電球は同じ明るさで約80％の電力を節約し、寿命も長くなります。
+- **具体例**：玄関や廊下、寝室などにLED電"
+日本語,2,3,38,128,0.5035,23.3706,75.9126,191,485,34.8734,88.5528,5.9999,6.0003,4.5486,length,"家庭で電力消費を減らすためには、日常生活の中で小さな工夫を積み重ねることが効果的です。以下は、具体的な例を挙げて5つの方法を説明します。
+
+---
+
+### 1. **LED電球に交換する**
+- **理由**：白熱電球は消費電力が大きく、寿命も短いです。一方、LED電球は同じ明るさで約80％の電力を節約し、寿命も長くなります。
+- **具体例**：玄関や廊下、寝室などにLED電"
+英語,1,1,29,77,0.2997,23.8269,97.7387,393,394,121.6101,121.9195,3.5506,3.551,4.5807,stop,"At higher altitudes, the atmospheric pressure is lower, which reduces the boiling point of water because water boils when its vapor pressure equals the surrounding atmospheric pressure. Lower pressure means water molecules require less energy to escape into the vapor phase, so they turn into gas at a lower temperature. As a result, water boils at a temperature below 100°C at high altitudes."
+英語,1,2,29,77,0.2998,23.7288,97.71,393,394,121.1095,121.4177,3.564,3.5643,4.5807,stop,"At higher altitudes, the atmospheric pressure is lower, which reduces the boiling point of water because water boils when its vapor pressure equals the surrounding atmospheric pressure. Lower pressure means water molecules require less energy to escape into the vapor phase, so they turn into gas at a lower temperature. As a result, water boils at a temperature below 100°C at high altitudes."
+英語,1,3,29,77,0.3014,23.7727,97.0973,393,394,121.3335,121.6423,3.5595,3.5599,4.5807,stop,"At higher altitudes, the atmospheric pressure is lower, which reduces the boiling point of water because water boils when its vapor pressure equals the surrounding atmospheric pressure. Lower pressure means water molecules require less energy to escape into the vapor phase, so they turn into gas at a lower temperature. As a result, water boils at a temperature below 100°C at high altitudes."
+英語,2,1,27,128,0.3024,23.6268,90.1737,535,535,98.7528,98.7528,5.7392,5.7395,4.5806,length,"Reducing electricity use at home can lead to lower energy bills, a smaller environmental footprint, and increased energy independence. Here are **five concrete ways to reduce electricity use**, each with a clear example:
+
+---
+
+### 1. **Switch to LED Light Bulbs**
+**Why it helps:** Incandescent and CFL bulbs use more energy and last shorter than LED bulbs.  
+**Example:** Replace a 60W incandescent bulb with a 10W LED bulb. This can save up to 80% of the energy used for lighting, and LED bulbs last up to 25 times longer.
+
+---
+
+### "
+英語,2,2,27,128,0.3006,23.5407,90.6972,535,535,98.3926,98.3926,5.7573,5.7576,4.5806,length,"Reducing electricity use at home can lead to lower energy bills, a smaller environmental footprint, and increased energy independence. Here are **five concrete ways to reduce electricity use**, each with a clear example:
+
+---
+
+### 1. **Switch to LED Light Bulbs**
+**Why it helps:** Incandescent and CFL bulbs use more energy and last shorter than LED bulbs.  
+**Example:** Replace a 60W incandescent bulb with a 10W LED bulb. This can save up to 80% of the energy used for lighting, and LED bulbs last up to 25 times longer.
+
+---
+
+### "
+英語,2,3,27,128,0.3042,23.674,89.6308,535,535,98.9498,98.9498,5.7303,5.7306,4.5806,length,"Reducing electricity use at home can lead to lower energy bills, a smaller environmental footprint, and increased energy independence. Here are **five concrete ways to reduce electricity use**, each with a clear example:
+
+---
+
+### 1. **Switch to LED Light Bulbs**
+**Why it helps:** Incandescent and CFL bulbs use more energy and last shorter than LED bulbs.  
+**Example:** Replace a 60W incandescent bulb with a 10W LED bulb. This can save up to 80% of the energy used for lighting, and LED bulbs last up to 25 times longer.
+
+---
+
+### "
+ロシア語,1,1,43,90,0.5339,23.9099,81.0098,283,524,75.1833,139.2087,4.3172,4.3175,4.5615,stop,"На большой высоте атмосферное давление снижается, что уменьшает давление над поверхностью воды. При более низком давлении вода начинает кипеть при более низкой температуре, так как молекулы воды нуждаются в меньше энергии для преодоления давления и перехода в газообразное состояние."
+ロシア語,1,2,43,90,0.5278,23.8687,81.9715,283,524,75.054,138.9692,4.3176,4.3179,4.5615,stop,"На большой высоте атмосферное давление снижается, что уменьшает давление над поверхностью воды. При более низком давлении вода начинает кипеть при более низкой температуре, так как молекулы воды нуждаются в меньше энергии для преодоления давления и перехода в газообразное состояние."
+ロシア語,1,3,43,90,0.5399,23.1408,80.0816,283,524,72.765,134.7309,4.4485,4.4489,4.5615,stop,"На большой высоте атмосферное давление снижается, что уменьшает давление над поверхностью воды. При более низком давлении вода начинает кипеть при более низкой температуре, так как молекулы воды нуждаются в меньше энергии для преодоления давления и перехода в газообразное состояние."
+ロシア語,2,1,36,128,0.5328,23.5528,67.985,342,596,62.9301,109.6676,5.9879,5.9883,4.5499,length,"Вот пять конкретных способов снизить расход электроэнергии дома с примерами:
+
+1. **Использование энергоэффективных ламп (LED)**  
+   — Замените традиционные лампы накаливания на светодиодные (LED).  
+   — Пример: Одна LED-лампа потребляет в 8–10 раз меньше энергии, чем лампа накаливания, и служит в 25 раз дольше.
+
+2. **Отключение неиспользу"
+ロシア語,2,2,36,128,0.5927,23.5334,60.9399,342,596,62.8782,109.5772,6.0513,6.0514,4.5502,length,"Вот пять конкретных способов снизить расход электроэнергии дома с примерами:
+
+1. **Использование энергоэффективных ламп (LED)**  
+   — Замените традиционные лампы накаливания на светодиодные (LED).  
+   — Пример: Одна LED-лампа потребляет в 8–10 раз меньше энергии, чем лампа накаливания, и служит в 25 раз дольше.
+
+2. **Отключение неиспользу"
+ロシア語,2,3,36,128,0.5581,23.837,64.8841,342,596,63.6894,110.9908,5.9472,5.9476,4.5499,length,"Вот пять конкретных способов снизить расход электроэнергии дома с примерами:
+
+1. **Использование энергоэффективных ламп (LED)**  
+   — Замените традиционные лампы накаливания на светодиодные (LED).  
+   — Пример: Одна LED-лампа потребляет в 8–10 раз меньше энергии, чем лампа накаливания, и служит в 25 раз дольше.
+
+2. **Отключение неиспользу"
+韓国語,1,1,45,101,0.5293,24.0168,85.5119,125,311,29.7237,73.9526,4.7538,4.7542,4.5695,stop,고도가 높아질수록 대기압이 낮아지기 때문에 물의 끓는점이 낮아집니다. 대기압이 낮아지면 물이 끓기 위해 필요한 증기압을 달성하는 데 적은 열량이 필요해집니다. 따라서 고도가 높은 곳에서는 물이 더 낮은 온도에서 끓게 됩니다.
+韓国語,1,2,45,101,0.5137,23.8813,88.1053,125,311,29.556,73.5354,4.7622,4.7626,4.5695,stop,고도가 높아질수록 대기압이 낮아지기 때문에 물의 끓는점이 낮아집니다. 대기압이 낮아지면 물이 끓기 위해 필요한 증기압을 달성하는 데 적은 열량이 필요해집니다. 따라서 고도가 높은 곳에서는 물이 더 낮은 온도에서 끓게 됩니다.
+韓国語,1,3,45,101,0.5242,23.8545,86.3629,125,311,29.5229,73.453,4.7776,4.7779,4.5695,stop,고도가 높아질수록 대기압이 낮아지기 때문에 물의 끓는점이 낮아집니다. 대기압이 낮아지면 물이 끓기 위해 필요한 증기압을 달성하는 데 적은 열량이 필요해집니다. 따라서 고도가 높은 곳에서는 물이 더 낮은 온도에서 끓게 됩니다.
+韓国語,2,1,41,128,0.5255,23.8551,78.5133,208,464,38.7645,86.4746,5.9107,5.911,4.5527,length,"가정에서 전기 사용량을 줄이는 것은 에너지 절약과 환경 보호에 기여할 뿐 아니라, 전기 요금을 줄이고 장기적으로는 경제적 이점을 얻을 수 있습니다. 아래는 전기 사용량을 줄일 수 있는 **구체적인 방법 5가지**와 각각의 예를 포함한 설명입니다:
+
+---
+
+### 1. **LED등으로 전구 교체하기**
+
+**설명:**  
+전구의 종류에 따라 전력 소비량이 크게 달라집니다"
+韓国語,2,2,41,128,0.5131,24.022,80.3739,208,464,39.0357,87.0796,5.8606,5.861,4.5527,length,"가정에서 전기 사용량을 줄이는 것은 에너지 절약과 환경 보호에 기여할 뿐 아니라, 전기 요금을 줄이고 장기적으로는 경제적 이점을 얻을 수 있습니다. 아래는 전기 사용량을 줄일 수 있는 **구체적인 방법 5가지**와 각각의 예를 포함한 설명입니다:
+
+---
+
+### 1. **LED등으로 전구 교체하기**
+
+**설명:**  
+전구의 종류에 따라 전력 소비량이 크게 달라집니다"
+韓国語,2,3,41,128,0.5066,24.0401,81.3845,208,464,39.0652,87.1454,5.8503,5.8506,4.5527,length,"가정에서 전기 사용량을 줄이는 것은 에너지 절약과 환경 보호에 기여할 뿐 아니라, 전기 요금을 줄이고 장기적으로는 경제적 이점을 얻을 수 있습니다. 아래는 전기 사용량을 줄일 수 있는 **구체적인 방법 5가지**와 각각의 예를 포함한 설명입니다:
+
+---
+
+### 1. **LED등으로 전구 교체하기**
+
+**설명:**  
+전구의 종류에 따라 전력 소비량이 크게 달라집니다"
+中国語（簡体字）,1,1,28,46,0.2986,24.303,94.7223,66,198,34.8695,104.6084,2.2104,2.2108,4.5891,stop,海拔越高，大气压力越低，水分子更容易逃逸到空气中。由于气压降低，水在较低温度下就能达到气化所需的能量。因此，海拔越高，水的沸点越低。
+中国語（簡体字）,1,2,28,46,0.2986,24.1821,94.7377,66,198,34.6961,104.0883,2.22,2.2204,4.5891,stop,海拔越高，大气压力越低，水分子更容易逃逸到空气中。由于气压降低，水在较低温度下就能达到气化所需的能量。因此，海拔越高，水的沸点越低。
+中国語（簡体字）,1,3,28,46,0.2978,24.184,95.0527,66,198,34.6988,104.0963,2.219,2.2193,4.5891,stop,海拔越高，大气压力越低，水分子更容易逃逸到空气中。由于气压降低，水在较低温度下就能达到气化所需的能量。因此，海拔越高，水的沸点越低。
+中国語（簡体字）,2,1,24,128,0.29,23.9853,83.6472,216,502,40.4751,94.0672,5.6458,5.6461,4.5592,length,"家庭节约用电是节约资源、降低生活成本、保护环境的重要举措。以下是五种具体且实用的节约用电方法：
+
+---
+
+### 1. **使用节能灯泡**
+- **做法**：将传统白炽灯更换为LED灯泡或节能灯（如CFL）。
+- **优点**：LED灯泡比白炽灯节能约80%，寿命更长，发热量少，更加环保。
+
+---
+
+### 2. **合理使用空调和取暖设备**
+- **做法**：夏季空调温度设定在26℃以上，冬季暖气温度设定在18℃左右；"
+中国語（簡体字）,2,2,24,128,0.2916,23.9155,83.1114,216,502,40.3574,93.7936,5.6631,5.6634,4.5592,length,"家庭节约用电是节约资源、降低生活成本、保护环境的重要举措。以下是五种具体且实用的节约用电方法：
+
+---
+
+### 1. **使用节能灯泡**
+- **做法**：将传统白炽灯更换为LED灯泡或节能灯（如CFL）。
+- **优点**：LED灯泡比白炽灯节能约80%，寿命更长，发热量少，更加环保。
+
+---
+
+### 2. **合理使用空调和取暖设备**
+- **做法**：夏季空调温度设定在26℃以上，冬季暖气温度设定在18℃左右；"
+中国語（簡体字）,2,3,24,128,0.2919,23.9276,83.0354,216,502,40.3777,93.8409,5.6606,5.661,4.5592,length,"家庭节约用电是节约资源、降低生活成本、保护环境的重要举措。以下是五种具体且实用的节约用电方法：
+
+---
+
+### 1. **使用节能灯泡**
+- **做法**：将传统白炽灯更换为LED灯泡或节能灯（如CFL）。
+- **优点**：LED灯泡比白炽灯节能约80%，寿命更长，发热量少，更加环保。
+
+---
+
+### 2. **合理使用空调和取暖设备**
+- **做法**：夏季空调温度设定在26℃以上，冬季暖气温度设定在18℃左右；"
+アラビア語,1,1,34,101,0.4897,24.0901,69.8513,251,458,59.8674,109.24,4.7014,4.7017,4.5429,stop,عندما يرتفع الارتفاع، يقل الضغط الجوي، مما يؤدي إلى انخفاض ضغط الهواء المحيط بالمنطقة. هذا انخفاض في الضغط الجوي يقلل من ضغط الماء، مما يقلل من درجة حرارة الغليان المطلوبة له. وبالتالي، يغلي الماء بدرجة حرارة أقل في المرتفعات مقارنة بالمناطق الساحلية.
+アラビア語,1,2,34,101,0.4546,23.9938,75.2597,251,458,59.6282,108.8036,4.6833,4.6837,4.5429,stop,عندما يرتفع الارتفاع، يقل الضغط الجوي، مما يؤدي إلى انخفاض ضغط الهواء المحيط بالمنطقة. هذا انخفاض في الضغط الجوي يقلل من ضغط الماء، مما يقلل من درجة حرارة الغليان المطلوبة له. وبالتالي، يغلي الماء بدرجة حرارة أقل في المرتفعات مقارنة بالمناطق الساحلية.
+アラビア語,1,3,34,101,0.4588,24.1227,74.6213,251,458,59.9486,109.3882,4.6646,4.665,4.5429,stop,عندما يرتفع الارتفاع، يقل الضغط الجوي، مما يؤدي إلى انخفاض ضغط الهواء المحيط بالمنطقة. هذا انخفاض في الضغط الجوي يقلل من ضغط الماء، مما يقلل من درجة حرارة الغليان المطلوبة له. وبالتالي، يغلي الماء بدرجة حرارة أقل في المرتفعات مقارنة بالمناطق الساحلية.
+アラビア語,2,1,37,128,0.4475,24.0931,83.2436,364,599,68.5148,112.7482,5.7793,5.7796,4.5554,length,"بالطبع! إليك خمس طرق عملية لتقليل استهلاك الكهرباء في المنزل، مع أمثلة لكل من هذه الطرق:
+
+---
+
+### 1. **استخدام مصابيح LED أو مصابيح توفير الطاقة**
+- **السبب:** المصابيح التقليدية (مثل مصابيح الأ filament) تستهلك كهرباء أكثر من مصابيح LED.
+- **المثال:** استبدل مصابيح الفلورسcente أو الأ filament بمصابيح LED، والتي تستخدم أقل من نصف الكهرباء وتدوم أطول.
+
+---
+
+###"
+アラビア語,2,2,37,128,0.4642,24.0263,80.2626,364,599,68.3248,112.4357,5.8109,5.8112,4.5554,length,"بالطبع! إليك خمس طرق عملية لتقليل استهلاك الكهرباء في المنزل، مع أمثلة لكل من هذه الطرق:
+
+---
+
+### 1. **استخدام مصابيح LED أو مصابيح توفير الطاقة**
+- **السبب:** المصابيح التقليدية (مثل مصابيح الأ filament) تستهلك كهرباء أكثر من مصابيح LED.
+- **المثال:** استبدل مصابيح الفلورسcente أو الأ filament بمصابيح LED، والتي تستخدم أقل من نصف الكهرباء وتدوم أطول.
+
+---
+
+###"
+アラビア語,2,3,37,128,0.4587,24.1199,81.1633,364,599,68.591,112.8737,5.7843,5.7847,4.5554,length,"بالطبع! إليك خمس طرق عملية لتقليل استهلاك الكهرباء في المنزل، مع أمثلة لكل من هذه الطرق:
+
+---
+
+### 1. **استخدام مصابيح LED أو مصابيح توفير الطاقة**
+- **السبب:** المصابيح التقليدية (مثل مصابيح الأ filament) تستهلك كهرباء أكثر من مصابيح LED.
+- **المثال:** استبدل مصابيح الفلورسcente أو الأ filament بمصابيح LED، والتي تستخدم أقل من نصف الكهرباء وتدوم أطول.
+
+---
+
+###"
+フランス語,1,1,32,88,0.2795,24.2627,115.6689,333,343,91.8122,94.5693,3.9254,3.9257,4.5922,stop,"À haute altitude, la pression atmosphérique est plus faible, ce qui réduit la pression sur la surface de l'eau. Une pression plus faible permet à l'eau de atteindre son point d'ébullition à une température plus basse. Ainsi, l'eau bout à une température plus basse en altitude en raison de la diminution de la pression atmosphérique."
+フランス語,1,2,32,88,0.2791,24.2444,115.8643,333,343,91.7431,94.4982,3.9278,3.9281,4.5922,stop,"À haute altitude, la pression atmosphérique est plus faible, ce qui réduit la pression sur la surface de l'eau. Une pression plus faible permet à l'eau de atteindre son point d'ébullition à une température plus basse. Ainsi, l'eau bout à une température plus basse en altitude en raison de la diminution de la pression atmosphérique."
+フランス語,1,3,32,88,0.2799,24.1931,115.5688,333,343,91.5489,94.2981,3.9364,3.9367,4.5922,stop,"À haute altitude, la pression atmosphérique est plus faible, ce qui réduit la pression sur la surface de l'eau. Une pression plus faible permet à l'eau de atteindre son point d'ébullition à une température plus basse. Ainsi, l'eau bout à une température plus basse en altitude en raison de la diminution de la pression atmosphérique."
+フランス語,2,1,43,128,0.4533,24.1356,95.4867,426,451,80.3263,85.0403,5.7757,5.776,4.5615,length,"Voici cinq façons concrètes de réduire la consommation d’électricité à la maison, accompagnées d'exemples pratiques :
+
+---
+
+### 1. **Éteindre les appareils en veille (mode veille)**
+Les appareils en veille consomment de l’électricité, même lorsqu'ils ne sont pas en utilisation active.  
+**Exemple :**  
+- Éteindre la télévision, le réfrigérateur, la console de jeux, ou le sèche-cheveux après utilisation, même si l’interrupt"
+フランス語,2,2,43,128,0.451,24.1055,96.0475,426,451,80.2262,84.9343,5.7799,5.7802,4.5615,length,"Voici cinq façons concrètes de réduire la consommation d’électricité à la maison, accompagnées d'exemples pratiques :
+
+---
+
+### 1. **Éteindre les appareils en veille (mode veille)**
+Les appareils en veille consomment de l’électricité, même lorsqu'ils ne sont pas en utilisation active.  
+**Exemple :**  
+- Éteindre la télévision, le réfrigérateur, la console de jeux, ou le sèche-cheveux après utilisation, même si l’interrupt"
+フランス語,2,3,43,128,0.4485,24.0736,96.4956,426,451,80.12,84.8219,5.7846,5.7848,4.5615,length,"Voici cinq façons concrètes de réduire la consommation d’électricité à la maison, accompagnées d'exemples pratiques :
+
+---
+
+### 1. **Éteindre les appareils en veille (mode veille)**
+Les appareils en veille consomment de l’électricité, même lorsqu'ils ne sont pas en utilisation active.  
+**Exemple :**  
+- Éteindre la télévision, le réfrigérateur, la console de jeux, ou le sèche-cheveux après utilisation, même si l’interrupt"
+スペイン語,1,1,32,69,0.279,24.1258,115.7933,266,272,93.0069,95.1048,3.1581,3.1584,4.5922,stop,"A mayor altitud, la presión atmosférica disminuye, lo que reduce la presión sobre la superficie del agua. Al haber menos presión, el agua alcanza su punto de ebullición a una temperatura más baja. Por lo tanto, el agua hierve a menor temperatura en alturas elevadas."
+スペイン語,1,2,32,69,0.2709,24.2367,119.4135,266,272,93.4342,95.5418,3.137,3.1373,4.5922,stop,"A mayor altitud, la presión atmosférica disminuye, lo que reduce la presión sobre la superficie del agua. Al haber menos presión, el agua alcanza su punto de ebullición a una temperatura más baja. Por lo tanto, el agua hierve a menor temperatura en alturas elevadas."
+スペイン語,1,3,32,69,0.2813,24.2797,115.0245,266,272,93.5999,95.7112,3.1422,3.1425,4.5922,stop,"A mayor altitud, la presión atmosférica disminuye, lo que reduce la presión sobre la superficie del agua. Al haber menos presión, el agua alcanza su punto de ebullición a una temperatura más baja. Por lo tanto, el agua hierve a menor temperatura en alturas elevadas."
+スペイン語,2,1,35,128,0.4578,24.1416,76.9351,444,450,83.7413,84.873,5.7788,5.7792,4.5462,length,"Claro, aquí tienes cinco formas concretas de reducir el consumo eléctrico en casa, con ejemplos claros:
+
+---
+
+### 1. **Usar luces LED en lugar de bombillas convencionales**
+- **Explicación:** Las luces LED consumen hasta 80% menos energía que las bombillas incandescentes y duran mucho más.
+- **Ejemplo:** Cambia las 10 bombillas incandescentes de tu casa por luces LED. Esto puede ahorrarte hasta 200 kWh al año, dependiendo del uso.
+
+---
+
+###"
+スペイン語,2,2,35,128,0.4603,24.137,76.4915,444,450,83.7252,84.8567,5.7823,5.7826,4.5462,length,"Claro, aquí tienes cinco formas concretas de reducir el consumo eléctrico en casa, con ejemplos claros:
+
+---
+
+### 1. **Usar luces LED en lugar de bombillas convencionales**
+- **Explicación:** Las luces LED consumen hasta 80% menos energía que las bombillas incandescentes y duran mucho más.
+- **Ejemplo:** Cambia las 10 bombillas incandescentes de tu casa por luces LED. Esto puede ahorrarte hasta 200 kWh al año, dependiendo del uso.
+
+---
+
+###"
+スペイン語,2,3,35,128,0.4503,23.9443,78.1332,444,450,83.0568,84.1792,5.8152,5.8155,4.5462,length,"Claro, aquí tienes cinco formas concretas de reducir el consumo eléctrico en casa, con ejemplos claros:
+
+---
+
+### 1. **Usar luces LED en lugar de bombillas convencionales**
+- **Explicación:** Las luces LED consumen hasta 80% menos energía que las bombillas incandescentes y duran mucho más.
+- **Ejemplo:** Cambia las 10 bombillas incandescentes de tu casa por luces LED. Esto puede ahorrarte hasta 200 kWh al año, dependiendo del uso.
+
+---
+
+###"
+ヒンディー語,1,1,77,128,0.6406,24.0957,120.8666,145,377,27.296,70.9695,5.9718,5.9722,4.5619,length,ऊपर की ओर जाने पर वायुमंडलीय दबाव कम हो जाता है। निम्न दबाव में पानी के अणुओं के वाष्पीकरण की प्रक्रिया आसान हो जाती है। इस कारण पानी के क्वथनांक
+ヒンディー語,1,2,77,128,0.6591,24.1658,117.3719,145,377,27.3754,71.176,5.9749,5.9752,4.5619,length,ऊपर की ओर जाने पर वायुमंडलीय दबाव कम हो जाता है। निम्न दबाव में पानी के अणुओं के वाष्पीकरण की प्रक्रिया आसान हो जाती है। इस कारण पानी के क्वथनांक
+ヒンディー語,1,3,77,128,0.6691,24.1171,115.6157,145,377,27.3201,71.0324,5.9958,5.9962,4.5619,length,ऊपर की ओर जाने पर वायुमंडलीय दबाव कम हो जाता है। निम्न दबाव में पानी के अणुओं के वाष्पीकरण की प्रक्रिया आसान हो जाती है। इस कारण पानी के क्वथनांक
+ヒンディー語,2,1,78,128,0.6285,24.0519,124.8036,146,352,27.4342,66.1426,5.9694,5.9698,4.5652,length,"निश्चित रूप से! घर में बिजली की खपत कम करने के पांच व्यावहारिक तरीके निम्नलिखित हैं, जिनके साथ उदाहरण भी दिए गए हैं:
+
+---
+
+### 1. **बिजली के उपकरण"
+ヒンディー語,2,2,78,128,0.6278,24.015,124.8084,146,352,27.3921,66.0413,5.9769,5.9773,4.5652,length,"निश्चित रूप से! घर में बिजली की खपत कम करने के पांच व्यावहारिक तरीके निम्नलिखित हैं, जिनके साथ उदाहरण भी दिए गए हैं:
+
+---
+
+### 1. **बिजली के उपकरण"
+ヒンディー語,2,3,78,128,0.6411,24.057,122.2421,146,352,27.44,66.1568,5.9811,5.9814,4.5652,length,"निश्चित रूप से! घर में बिजली की खपत कम करने के पांच व्यावहारिक तरीके निम्नलिखित हैं, जिनके साथ उदाहरण भी दिए गए हैं:
+
+---
+
+### 1. **बिजली के उपकरण"
+タイ語,1,1,54,128,0.4573,24.0303,119.0029,214,630,40.1757,118.2743,5.803,5.8035,4.6074,length,น้ำเดือดที่อุณหภูมิต่ำลงเมื่ออยู่บนที่สูง เพราะความดันบรรยากาศลดลงเมื่อสูงขึ้น ความดันที่ต่ำทำให้น้ำสามารถเดือดได้ที่อุณหภูมิที่ต่ำกว่าปกติ ความดันบรรยากาศส่งผลต่อจุดเดือดของของไหล ดังนั้น ที่ความสูงที่มากขึ้น น้ำจ
+タイ語,1,2,54,128,0.4705,24.0419,115.4697,214,630,40.1951,118.3313,5.8136,5.8139,4.6074,length,น้ำเดือดที่อุณหภูมิต่ำลงเมื่ออยู่บนที่สูง เพราะความดันบรรยากาศลดลงเมื่อสูงขึ้น ความดันที่ต่ำทำให้น้ำสามารถเดือดได้ที่อุณหภูมิที่ต่ำกว่าปกติ ความดันบรรยากาศส่งผลต่อจุดเดือดของของไหล ดังนั้น ที่ความสูงที่มากขึ้น น้ำจ
+タイ語,1,3,54,128,0.4965,24.0544,109.4333,214,630,40.2159,118.3927,5.8368,5.8371,4.6074,length,น้ำเดือดที่อุณหภูมิต่ำลงเมื่ออยู่บนที่สูง เพราะความดันบรรยากาศลดลงเมื่อสูงขึ้น ความดันที่ต่ำทำให้น้ำสามารถเดือดได้ที่อุณหภูมิที่ต่ำกว่าปกติ ความดันบรรยากาศส่งผลต่อจุดเดือดของของไหล ดังนั้น ที่ความสูงที่มากขึ้น น้ำจ
+タイ語,2,1,50,128,0.4828,24.0257,104.2746,246,644,46.1744,120.8792,5.8295,5.8298,4.5914,length,"การลดการใช้ไฟฟ้าในบ้านเป็นสิ่งสำคัญที่ช่วยลดค่าใช้จ่ายและส่งเสริมความยั่งยืน ต่อไปนี้เป็น **ห้าวิธีที่มีประสิทธิภาพในการลดการใช้ไฟฟ้าในบ้าน พร้อมตัวอย่างที่เป็นรูปธรรม**:
+
+---
+
+### 1. **เปลี่ยนจากหลอดไฟแบบหลอดฟรังซ์ (Incandescent) เป็นหลอด LED**
+"
+タイ語,2,2,50,128,0.488,24.0557,103.141,246,644,46.232,121.03,5.8282,5.8285,4.5914,length,"การลดการใช้ไฟฟ้าในบ้านเป็นสิ่งสำคัญที่ช่วยลดค่าใช้จ่ายและส่งเสริมความยั่งยืน ต่อไปนี้เป็น **ห้าวิธีที่มีประสิทธิภาพในการลดการใช้ไฟฟ้าในบ้าน พร้อมตัวอย่างที่เป็นรูปธรรม**:
+
+---
+
+### 1. **เปลี่ยนจากหลอดไฟแบบหลอดฟรังซ์ (Incandescent) เป็นหลอด LED**
+"
+タイ語,2,3,50,128,0.4937,23.904,101.8599,246,644,45.9405,120.2671,5.8678,5.8681,4.5914,length,"การลดการใช้ไฟฟ้าในบ้านเป็นสิ่งสำคัญที่ช่วยลดค่าใช้จ่ายและส่งเสริมความยั่งยืน ต่อไปนี้เป็น **ห้าวิธีที่มีประสิทธิภาพในการลดการใช้ไฟฟ้าในบ้าน พร้อมตัวอย่างที่เป็นรูปธรรม**:
+
+---
+
+### 1. **เปลี่ยนจากหลอดไฟแบบหลอดฟรังซ์ (Incandescent) เป็นหลอด LED**
+"
